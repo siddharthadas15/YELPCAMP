@@ -16,7 +16,7 @@ With yelpcamp,one can create and view data related to campgrounds you know, incl
 
 Once you have Node.js and MongoDB installed on your computer,
 
-1. [download](https://github.com/HarishTeens/yelpcamp/archive/master.zip) the project or clone it to your computer by running `git clone https://github.com/HarishTeens/yelpcamp.git` on your Git terminal.
+1. Download the project or clone it to your computer by running `git clone https://github.com/siddharthadas15/YELPCAMP.git` on your Git terminal.
 2. In the directory of the folder `yelpcamp` containing the files of the repositiory, open up the terminal and run `npm install`
 3. Once installation is complete, run `npm start` on the same terminal.
 4. Open your web browser and visit the address `localhost:8080` and voila!
