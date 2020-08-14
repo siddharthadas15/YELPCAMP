@@ -1,0 +1,33 @@
+.p
+{
+    padding:20px;
+}
+.img-thumbnail
+{
+    width:100%;
+}
+.id
+{
+    display:inline-block;
+}
+.r
+{
+    margin-left:80%;
+}
+.a{
+    position:absolute;
+    right:10px;
+    
+}
+.m{
+  margin-bottom:20px;  
+}
+.x
+{
+    position:absolute;
+}
+.z{
+position:relative;
+left:700px;
+
+}

@@ -1,0 +1,26 @@
+<%- include ("../partials/header") %>
+<div class="container">
+<header class="jumbotron" >
+    <div class="container">
+    <h1>Welcome To YELPCAMP</h1>
+    <p>View Our All Campsites All Over The World</p>
+    <p>
+        <a href="campground/new" class="btn btn-primary btn-lg">ADD NEW CAMPGROUND</a>
+        </p>
+        </div>
+</header>
+<div class="row">
+<% for(var i=0;i<campground.length;i++){ %>
+<div class="col-md-4 col-sm-6">
+    <div class="card text-center" style="margin-bottom:10%">
+    <img src="<%= campground[i].image %>" class="img-thumbnail">
+    <div class="caption" style="font-weight:bold;padding: 10px 0"><%= campground[i].name %></div>
+    <p>
+        <a href="/campground/<%= campground[i]._id %>" class="btn btn-primary" class>More Info</a>
+    </p>
+    </div>
+    </div>
+    <% } %>
+</div>
+</div>
+<%- include ("../partials/footer") %>
