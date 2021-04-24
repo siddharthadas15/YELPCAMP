@@ -2,7 +2,7 @@
 
 Yelpcamp is fully functional NodeJs web app
 
-With yelpcamp,one can create and view data related to campgrounds you know, including a picture of the campground,users can also comment on each other's post.
+With Yelpcamp,one can create and view data related to campgrounds you know after registering oneself,including a picture of the campground,users can also comment and like on each other's post.
 
 ## Getting Started
 
