@@ -88,7 +88,9 @@ app.use(indexRoutes);
 app.use(campgroundRoutes);
 app.use(commentRoutes);
 
-app.listen(8080,function()
+
+const port = process.env.PORT || 3000;
+app.listen(port,function()
 {
    console.log("SD15 sever started"); 
 });
